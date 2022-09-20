@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{!-- calling header from partials --}}
+   {{>headerLinks}}
+  </head>
+
+  <body>
+   
+   {{!-- calling navbar from partials --}}
+   {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side div -->
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+                <figure>
+                  <img src="./images/about.webp" alt="image" class="img-fluid" title="temp">
+                </figure>
+              </div>
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome to weather app</p>
+              <h3>I Am A <span class="text_clr">Node Js</span> BackEnd Developer</h3>
+              <a href="https://github.com/codingXpert?tab=repositories" target="blank"><button>About Me</button></a>
+            </div>
+
+            <!-- right side div -->
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer here -->
+   {{>footer}}
+  </body>
+</html>
