@@ -118,6 +118,148 @@ color: var(--main-color);
     filter: drop-shadow(0 0.5rem 1rem rgba(0 , 0 , 0 ,0.3));
 }
 
+
+/* 404 page styling */
+.errimg{
+    width: 60rem;
+    height: 30rem;
+}
+
+/* weather.hbs styling */
+.main_layer .middle_layer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main_layer .middle_layer p,
+.main_layer .middle_layer .fa{
+    font-size: 7rem;
+    font-weight: 900;
+    color: black;
+}
+
+.fa{
+    color: #009ad8;
+}
+
+sup{
+    font-size: 6rem;
+    margin-top: -2rem;
+}
+
+.data_hide{
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.top_layer p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.main_layer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.main_layer #city_name{
+    color: #bfc1c8;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.main_layer .middle_layer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.tempInfo{
+    width: 40rem;
+    margin: auto;
+    min-height: 20rem;
+    background-color: #323544;
+    /* border-radius: 1rem; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top_layer{
+    width: 100%;
+    height: 20%;
+    background-color: #2d303d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.main_header_right figure img{
+    filter:drop-shadow(0 0.5 1rem rgba(0 , 0 , 0 , 0.3));
+}
+
+/* Search Bar  And Form*/
+.temp_form{
+    width: 60%;
+    position: relative;
+    margin: 10rem auto 6rem;
+}
+
+.temp_form input[type="text"]{
+    width: 100%;
+    padding: 2rem 5rem 2rem 2rem;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 3rem;
+}
+
+::placeholder{
+    color: rgb(187, 255, 204);
+}
+
+.temp_form input[type="submit"]{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 0 3rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.temp_form input[type="submit"]:hover{
+  color: #009ad8;
+  background-color: #fff;
+}
+
+.temp_form input[type="submit"]:hover{
+color: #009ad8;
+background-color: #fff  ;
+}
+.top_layer p{
+    padding: 2rem ;
+    color: #fff;
+    font-weight: 300;
+}
+
+.main_layer{
+    width: 100%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+}
+
+
 /* footer code */
 footer{
     width: 100%;
